@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MapNATK</string>
+    <string name="map">Карта</string>
+    <string name="navigator">Маршрут</string>
+</resources>
