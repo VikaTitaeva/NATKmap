@@ -10,12 +10,31 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        val button = findViewById<Button>(R.id.mapbutton)
-        button.setOnClickListener{
+        val button1 = findViewById<Button>(R.id.firstbutton)
+        button1.setOnClickListener{
             val intent = Intent(this, MapActivity::class.java)
             startActivity(intent)
             finish()
         }
+        val button2 = findViewById<Button>(R.id.secondbutton)
+        button2.setOnClickListener{
+            val intent = Intent(this, MapActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+        val button3 = findViewById<Button>(R.id.thirdbutton)
+        button3.setOnClickListener{
+            val intent = Intent(this, MapActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+        val button4 = findViewById<Button>(R.id.fourthbutton)
+        button4.setOnClickListener{
+            val intent = Intent(this, MapActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
     }
 
 

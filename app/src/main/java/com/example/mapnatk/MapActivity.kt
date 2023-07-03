@@ -13,7 +13,7 @@ class MapActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_map)
         val imageView = findViewById<View>(R.id.imageView) as SubsamplingScaleImageView
-        imageView.setImage(ImageSource.resource(R.drawable.floor3));
+        imageView.setImage(ImageSource.resource(R.drawable.floor1));
     }
 }
 

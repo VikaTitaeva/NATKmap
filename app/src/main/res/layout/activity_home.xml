@@ -6,30 +6,84 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
-    <Button
-        android:id="@+id/mapbutton"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="276dp"
-        android:backgroundTint="#0177BE"
-        android:text="@string/map"
-        android:textColor="#FFFFFF"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="264dp"
+        android:text="Выберите этаж"
+        android:textColor="#0177BE"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="@drawable/roundstyle"/>
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <Button
-        android:id="@+id/navigatorbutton"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="340dp"
+        android:id="@+id/fourthbutton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="27dp"
         android:background="@drawable/roundstyle"
-        android:backgroundTint="#D8D3D3"
-        android:text="@string/navigator"
+        android:backgroundTint="#0177BE"
+        android:text="4"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/thirdbutton"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/thirdbutton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#0177BE"
+        android:text="3"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/secondbutton"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+    <Button
+        android:id="@+id/firstbutton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#0177BE"
+        android:text="1"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/secondbutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/secondbutton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#0177BE"
+        android:text="2"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/thirdbutton"
+        app:layout_constraintStart_toEndOf="@+id/firstbutton"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 </androidx.constraintlayout.widget.ConstraintLayout>
