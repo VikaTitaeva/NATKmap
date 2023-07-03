@@ -11,8 +11,8 @@
 
     <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
         android:id="@+id/imageView"
-        android:layout_width="383dp"
-        android:layout_height="429dp"
+        android:layout_width="404dp"
+        android:layout_height="461dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
