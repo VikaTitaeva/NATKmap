@@ -30,7 +30,7 @@ class MapActivity : AppCompatActivity() {
         button1.setOnClickListener {            val builder = AlertDialog.Builder(this)
             builder.setTitle(R.string.dialogTitle1)
             builder.setMessage(R.string.dialogMessage1)
-            builder.setIcon(android.R.drawable.ic_dialog_alert)
+            builder.setIcon(R.drawable.clothes)
             builder.setPositiveButton("Понятно"){dialogInterface, which ->
             }
             val alertDialog: AlertDialog = builder.create()
@@ -40,7 +40,7 @@ class MapActivity : AppCompatActivity() {
         button2.setOnClickListener {            val builder = AlertDialog.Builder(this)
             builder.setTitle(R.string.dialogTitle2)
             builder.setMessage(R.string.dialogMessage2)
-            builder.setIcon(android.R.drawable.ic_dialog_alert)
+            builder.setIcon(R.drawable.cabinet)
             builder.setPositiveButton("Понятно"){dialogInterface, which ->
             }
             val alertDialog: AlertDialog = builder.create()
@@ -50,7 +50,7 @@ class MapActivity : AppCompatActivity() {
         button3.setOnClickListener {            val builder = AlertDialog.Builder(this)
             builder.setTitle(R.string.dialogTitle3)
             builder.setMessage(R.string.dialogMessage3)
-            builder.setIcon(android.R.drawable.ic_dialog_alert)
+            builder.setIcon(R.drawable.eat)
             builder.setPositiveButton("Понятно"){dialogInterface, which ->
             }
             val alertDialog: AlertDialog = builder.create()
@@ -60,7 +60,7 @@ class MapActivity : AppCompatActivity() {
         button4.setOnClickListener {            val builder = AlertDialog.Builder(this)
             builder.setTitle(R.string.dialogTitle4)
             builder.setMessage(R.string.dialogMessage4)
-            builder.setIcon(android.R.drawable.ic_dialog_alert)
+            builder.setIcon(R.drawable.teachmoment)
             builder.setPositiveButton("Понятно"){dialogInterface, which ->
             }
             val alertDialog: AlertDialog = builder.create()
@@ -70,7 +70,7 @@ class MapActivity : AppCompatActivity() {
         button5.setOnClickListener {            val builder = AlertDialog.Builder(this)
             builder.setTitle(R.string.dialogTitle5)
             builder.setMessage(R.string.dialogMessage5)
-            builder.setIcon(android.R.drawable.ic_dialog_alert)
+            builder.setIcon(R.drawable.training)
             builder.setPositiveButton("Понятно"){dialogInterface, which ->
             }
             val alertDialog: AlertDialog = builder.create()
@@ -80,7 +80,7 @@ class MapActivity : AppCompatActivity() {
         button6.setOnClickListener {            val builder = AlertDialog.Builder(this)
             builder.setTitle(R.string.dialogTitle6)
             builder.setMessage(R.string.dialogMessage6)
-            builder.setIcon(android.R.drawable.ic_dialog_alert)
+            builder.setIcon(R.drawable.toilet)
             builder.setPositiveButton("Понятно"){dialogInterface, which ->
             }
             val alertDialog: AlertDialog = builder.create()
@@ -90,7 +90,7 @@ class MapActivity : AppCompatActivity() {
         button7.setOnClickListener {            val builder = AlertDialog.Builder(this)
             builder.setTitle(R.string.dialogTitle7)
             builder.setMessage(R.string.dialogMessage7)
-            builder.setIcon(android.R.drawable.ic_dialog_alert)
+            builder.setIcon(R.drawable.security)
             builder.setPositiveButton("Понятно"){dialogInterface, which ->
             }
             val alertDialog: AlertDialog = builder.create()
@@ -100,7 +100,7 @@ class MapActivity : AppCompatActivity() {
         button8.setOnClickListener {            val builder = AlertDialog.Builder(this)
             builder.setTitle(R.string.dialogTitle8)
             builder.setMessage(R.string.dialogMessage8)
-            builder.setIcon(android.R.drawable.ic_dialog_alert)
+            builder.setIcon(R.drawable.priem)
             builder.setPositiveButton("Понятно"){dialogInterface, which ->
             }
             val alertDialog: AlertDialog = builder.create()
