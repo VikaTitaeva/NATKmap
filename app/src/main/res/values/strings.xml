@@ -1,10 +1,28 @@
 <resources>
     <string name="app_name">MapNATK</string>
-    <string name="imagebutton">click button</string>
-    <string name="dialogTitle">Delete File</string>
-    <string name="dialogMessage">Deleting file may be harm your system</string>
 
-    <string name="dialogTitle1">Add File</string>
-    <string name="dialogMessage2">Add file may be harm your system</string>
+    <string name="dialogTitle">Гардероб</string>
+    <string name="dialogMessage">Закрыт до похолоданий!</string>
+
+    <string name="dialogTitle1">Кабинет</string>
+    <string name="dialogMessage1">Просто кабинет, ничего необычного)</string>
+
+    <string name="dialogTitle2">Столовая</string>
+    <string name="dialogMessage2">Тут очень вкусно!</string>
+
+    <string name="dialogTitle3">Учебная часть</string>
+    <string name="dialogMessage3">Здесь заседают важные тети и дяди нашего колледжа!</string>
+
+    <string name="dialogTitle4">Тренажерный зал</string>
+    <string name="dialogMessage4">Можно записаться и посещать после пар)</string>
+
+    <string name="dialogTitle5">Туалет</string>
+    <string name="dialogMessage5">Мужской/Женский</string>
+
+    <string name="dialogTitle6">Охрана</string>
+    <string name="dialogMessage6">Без комментариев</string>
+
+    <string name="dialogTitle7">Приемная комиссия</string>
+    <string name="dialogMessage7">Приносим свои документики сюда!!!</string>
 
 </resources>
