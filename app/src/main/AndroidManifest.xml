@@ -15,6 +15,12 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".FourthfloorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdfloorActivity"
+            android:exported="false" />
+        <activity
             android:name=".SecondfloorActivity"
             android:exported="false" />
         <activity

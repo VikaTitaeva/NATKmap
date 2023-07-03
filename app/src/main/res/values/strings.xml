@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">MapNATK</string>
-    <string name="map">Карта</string>
-    <string name="navigator">Маршрут</string>
+    <string name="imagebutton">click button</string>
+    <string name="dialogTitle">Delete File</string>
+    <string name="dialogMessage">Deleting file may be harm your system</string>
+
+    <string name="dialogTitle1">Add File</string>
+    <string name="dialogMessage2">Add file may be harm your system</string>
+
 </resources>
