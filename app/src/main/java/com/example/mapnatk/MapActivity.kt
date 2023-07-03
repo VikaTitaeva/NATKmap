@@ -1,6 +1,7 @@
 package com.example.mapnatk
 
 import android.R.id
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -9,9 +10,14 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.davemorrissey.labs.subscaleview.ImageSource
 import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+import android.view.MotionEvent
 
 
 class MapActivity : AppCompatActivity() {
+
+    private val SWIPE_THRESHOLD = 100
+    private var x1 = 0f
+    private var x2 = 0f
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_map)
@@ -107,6 +113,22 @@ class MapActivity : AppCompatActivity() {
             alertDialog.setCancelable(false)
             alertDialog.show()
         }
+    }
+    override fun onTouchEvent(event: MotionEvent): Boolean {
+        when (event.action) {
+            MotionEvent.ACTION_DOWN -> {
+                x1 = event.x
+            }
+            MotionEvent.ACTION_UP -> {
+                x2 = event.x
+                val deltaX = x2 - x1
+                if (Math.abs(deltaX) > SWIPE_THRESHOLD) {
+                    val intent = Intent(this, HomeActivity::class.java)
+                    startActivity(intent)
+                }
+            }
+        }
+        return super.onTouchEvent(event)
     }
 }
 

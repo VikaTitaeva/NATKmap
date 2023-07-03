@@ -25,4 +25,10 @@
     <string name="dialogTitle8">Приемная комиссия</string>
     <string name="dialogMessage8">Приносим свои документики сюда!!!</string>
 
+    <string name="dialogTitle9">Библиотека</string>
+    <string name="dialogMessage9">Лучшее место в колледже! Всегда прохладно и есть диванчики))</string>
+
+    <string name="dialogTitle10">Технический отдел</string>
+    <string name="dialogMessage10">Тяжело найти тут нужного человека(</string>
+
 </resources>
