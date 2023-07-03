@@ -31,4 +31,13 @@
     <string name="dialogTitle10">Технический отдел</string>
     <string name="dialogMessage10">Тяжело найти тут нужного человека(</string>
 
+    <string name="dialogTitle11">Методический кабинет</string>
+    <string name="dialogMessage11">Тут работают преподаватели-методисты</string>
+
+    <string name="dialogTitle12">Медицинский кабинет</string>
+    <string name="dialogMessage12">Без комментариев</string>
+
+    <string name="dialogTitle13">Преподавательская</string>
+    <string name="dialogMessage13">Тут хранятся журнальчики групп и засидают преподаватели)</string>
+
 </resources>
